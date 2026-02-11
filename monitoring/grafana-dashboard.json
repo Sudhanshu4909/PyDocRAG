@@ -1,0 +1,39 @@
+{
+  "dashboard": {
+    "title": "PyDocRAG Monitoring",
+    "panels": [
+      {
+        "title": "Query Rate",
+        "targets": [
+          {
+            "expr": "rate(rag_queries_total[5m])"
+          }
+        ]
+      },
+      {
+        "title": "Response Time (p95)",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(rag_query_duration_seconds_bucket[5m]))"
+          }
+        ]
+      },
+      {
+        "title": "Cache Hit Rate",
+        "targets": [
+          {
+            "expr": "rate(rag_cache_hits_total[5m]) / (rate(rag_cache_hits_total[5m]) + rate(rag_cache_misses_total[5m]))"
+          }
+        ]
+      },
+      {
+        "title": "Active Queries",
+        "targets": [
+          {
+            "expr": "rag_active_queries"
+          }
+        ]
+      }
+    ]
+  }
+}
