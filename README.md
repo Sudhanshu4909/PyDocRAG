@@ -2,14 +2,8 @@
 
 > Production-ready RAG system for Python documentation that never hallucinates
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)](https://fastapi.tiangolo.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 Get accurate, version-specific answers from 100+ Python libraries backed by official documentation. Unlike generic LLMs, PyDocRAG never hallucinates - every answer is grounded in real documentation with direct source attribution.
-
-[🚀 Live Demo](#) | [📖 Documentation](#) | [💬 Discord](#) | [🐛 Report Bug](issues)
 
 ---
 
