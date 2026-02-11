@@ -50,6 +50,9 @@ print(result['answer'])
 - Cached query: ~0.2 seconds (10x faster!)
 - Accuracy: >95% on benchmarks
 
+<p align="center">
+  <img src="screenshots/screenshot.png" width="900"/>
+</p>
 ---
 
 ## 🚀 Quick Start
